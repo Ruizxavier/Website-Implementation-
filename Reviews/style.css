@@ -1,0 +1,171 @@
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--white);   /* White background */
+  padding: 10px;
+  margin: 0;
+}
+
+:root {
+    --primary-blue: #007bff; /* A common blue */
+    --black: #222;          /* A dark grey for text */
+    --white: #fff;           /* Pure white for backgrounds */
+} 
+
+/* Header */
+.header {
+  background-color: var(--primary-blue); /* Blue background */
+  padding: 30px;
+  text-align: center;
+  color: var(--white);                /* White text */
+}
+
+.header h1 {
+  font-size: 50px;
+  color: var(--white);                 /* White heading */
+}
+
+/* Navigation Bar */
+.topnav {
+  overflow: hidden;
+  background-color: var(--black); /* Black background */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: var(--white);            /* White text */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: var(--white);  /* White background on hover */
+  color: var(--black);           /* Black text on hover */
+}
+
+/* Main Content */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+/* Columns for Services */
+.column {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px;
+  background-color: var(--white); /* White background */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Card Style */
+.card {
+  padding: 20px;
+  background-color: var(--white); /* White background */
+}
+
+.card h2, .card h3 {
+  color: var(--primary-blue);    /* Blue headings */
+}
+
+.card p {
+  color: var(--black);            /* Black text */
+}
+
+/* Placeholder for Images */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--black); /* Black background */
+  text-align: center;
+  color: var(--white);            /* White text */
+}
+
+
+
+
+
+
+
+/* ... your existing CSS ... */
+
+.review-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-rating .stars {
+    font-size: 20px;
+    color: #ffc107; /* Gold star color */
+    margin-right: 10px;
+}
+
+.review-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* ... other CSS rules ... */
+
+/* Header Styles */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white; /* Or your desired background color */
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #333; /* Or your desired text color */
+}
+
+/* Navigation Bar Styles */
+.topnav {
+  overflow: hidden;
+  background-color: #333; /* Or your desired background color */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2; /* Or your desired text color */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* ... other CSS rules ... */
